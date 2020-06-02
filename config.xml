@@ -17,8 +17,7 @@
     <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
-    <plugin name="cordova-plugin-admobpro" source="npm"/>
-
+    
 <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="handset" />      <!-- all: possible values handset, tablet, or universal -->
@@ -34,8 +33,6 @@
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-minSdkVersion"      value="11" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- a -->
-
-
 
 	<icon src="icont.png" />
     <access origin="*" />
